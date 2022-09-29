@@ -15,8 +15,8 @@ const EachChoice = props => {
 
   return (
     <EachListItem>
-      <ImageButton data-testid={`${lower}Button`}>
-        <ImageElement src={imageUrl} onClick={ClickChoice} alt={id} />
+      <ImageButton data-testid={`${lower}Button`} onClick={ClickChoice}>
+        <ImageElement src={imageUrl} alt={id} />
       </ImageButton>
     </EachListItem>
   )
